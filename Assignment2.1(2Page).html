@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)file:///D:/MyEdu/PADC/PADC-Sample_Projects/SirThetHlaing/HomeWork/test2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+    <style>
+
+        .wrapper{
+
+            margin-left: 50px;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: [col1-start] 300px [col2-start] 300px [col3-start] 200px [col3-end];
+    grid-template-rows: [row1-start] auto [row2-start] auto [row2-end] auto
+        }
+
+        .box{
+            padding: 10px;
+        }
+
+        .a{
+            grid-column: col1-start / col3-end;
+            grid-row: row1-start;
+        }
+
+        .b{
+
+            grid-column: col1-start / col2-end;
+            grid-row: row2-start;
+        }
+        
+        .c{
+
+            grid-column: col1-start / col3-end;
+            grid-row: row3-start;
+        }
+        
+    </style></head>
+    
+    <body>
+
+        <div class="wrapper" style="
+    font-style: oblique;
+    font-size: 40px;
+">
+            <div class="box a">One Direction Song</div>
+            <div class="box b"><video controls=""><source src="OneDirection.mp4" type="video/mp4"></video></div>
+            <div class="box c" style="
+    font-style: normal;
+    font-size: 14px;
+">One Direction are a British-Irish boy band consisting of members Niall Horan, Liam Payne, Harry Styles and Louis Tomlinson. After placing third in the seventh series of The X Factor, they were signed to Simon Cowell's Syco Records.
+            </div>
+        </div>
+    
+</body></html>
